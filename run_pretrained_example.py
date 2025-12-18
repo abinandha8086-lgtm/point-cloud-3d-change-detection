@@ -26,7 +26,7 @@ def main():
     # 2. Load pretrained model
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = Siam3DCDNet(tcfg.in_dim, tcfg.out_dim).to(device)
-    best_model_path = "/home/abinandha/go2_3d_change/data/best_net.pth"
+    best_model_path = "/home/abinandha/3d_pc_change/data/best_net.pth"
     ckpt = torch.load(best_model_path, map_location=device)
     model.load_state_dict(ckpt["model_state_dict"], strict=False)
     model.eval()
