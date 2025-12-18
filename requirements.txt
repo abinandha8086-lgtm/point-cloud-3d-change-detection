@@ -1,0 +1,6 @@
+numpy
+open3d
+torch
+torchvision
+opencv-python
+scikit-learn
