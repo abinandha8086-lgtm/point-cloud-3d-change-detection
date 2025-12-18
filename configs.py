@@ -40,7 +40,7 @@ def train_cfg():
     cfg.path = mlc.ConfigDict()
 
     # root of SHREC/SLPCCD dataset
-    cfg.path.data_root = "/home/abinandha/3d_pc_change/data/SHREC2020-CD"
+    cfg.path.data_root = "./data"
 
     # processed (plane-removed) folders
     # actual folders are test_seg_split_plane_8192_thr_0.5 and train_seg_split_plane_8192_thr_0.5
@@ -91,5 +91,6 @@ def train_cfg():
 CONFIGS = {
     "Train": train_cfg(),
 }
+
 
 
