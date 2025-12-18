@@ -31,10 +31,11 @@ pip install -r requirements.txt
 4. Run the Visualization
 To see the cube change detection in action, run the visualization script. This will open a 3D window showing the processed point cloud results:
 
-python3 viz_change.py 
+   bash
+
+   python3 viz_change.py 
 
 
 # Example 
 [Screencast from 2025-12-17 16-35-14.webm](https://github.com/user-attachments/assets/d52c6240-8d56-45b6-8923-bd0b7d972424)
-
 
