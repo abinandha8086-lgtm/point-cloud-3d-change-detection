@@ -20,19 +20,18 @@ git clone [https://github.com/abinandha8086-lgtm/point-cloud-3d-change-detection
 cd point-cloud-3d-change-detection
 
 2. Create and Activate Environment
-It is recommended to use a virtual environment to avoid library conflicts
+   It is recommended to use a virtual environment to avoid library conflicts
 
 3. Install Requirements
-Install the necessary deep learning and visualization libraries:
+   Install the necessary deep learning and visualization libraries:
 
-pip install --upgrade pip
-pip install -r requirements.txt
+   pip install --upgrade pip
+   pip install -r requirements.txt
 
 4. Run the Visualization
 To see the cube change detection in action, run the visualization script. This will open a 3D window showing the processed point cloud results:
 
-   bash
-
+   
    python3 viz_change.py 
 
 
