@@ -15,3 +15,7 @@ The model processes these inputs and generates a prediction that highlights exac
 
      python run_camera_change.py
 
+
+# Result:
+
+<img width="995" height="809" alt="Screenshot from 2025-12-26 12-27-24" src="https://github.com/user-attachments/assets/b7df9a0f-9ca4-46f7-922e-be14c4c19bdb" />
