@@ -16,8 +16,8 @@ The model processes these inputs and generates a prediction that highlights exac
 1. Clone the Repository
 Open your terminal and run:
 
-git clone [https://github.com/abinandha8086-lgtm/point-cloud-3d-change-detection.git](https://github.com/abinandha8086-lgtm/point-cloud-3d-change-detection.git)
-cd point-cloud-3d-change-detection
+       git clone [https://github.com/abinandha8086-lgtm/point-cloud-3d-change-detection.git](https://github.com/abinandha8086-lgtm/point-cloud-3d-change-detection.git)
+       cd point-cloud-3d-change-detection
 
 2. Create and Activate Environment
    It is recommended to use a virtual environment to avoid library conflicts
@@ -25,14 +25,13 @@ cd point-cloud-3d-change-detection
 3. Install Requirements
    Install the necessary deep learning and visualization libraries:
 
-   pip install --upgrade pip
-   pip install -r requirements.txt
+       pip install --upgrade pip
+       pip install -r requirements.txt
 
 4. Run the Visualization
 To see the cube change detection in action, run the visualization script. This will open a 3D window showing the processed point cloud results:
 
-   
-   python3 viz_change.py 
+       python3 viz_change.py 
 
 
 # Example 
